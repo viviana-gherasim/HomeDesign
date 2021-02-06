@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home design</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+            li.dropdown {
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position:absolute;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .contact {
+                position: relative;
+                min-height: 100vh;
+                padding: 50px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: url(images/about.jpg);
+                background-size: cover;
+            }       
+            
+            .contact .content {
+                max-width: 800px;
+                text-align: center;
+            }
+
+            .contact .content h2 {
+                font-size: 36px;
+                font-weight: 500;
+                color:#fff;
+            }
+
+            .contact .content p {
+                font-weight: 500;
+                color: black;
+            }
+
+            .contact .container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+            }
+
+            .contact .container .contactInfo .box {
+                position: relative;
+                padding: 20px 0;
+                display: flex;
+            }
+
+            .contact .container .contactInfo .box .text {
+                display: flex;
+                margin-left: 20px;
+                font-size: 16px;
+                color: #fff;
+                flex-direction: column;
+                font-weight: 300;
+            }
+
+            .contact .container .contactInfo .box .text h3 {
+                font-weight: 500;
+                font-size: x-large;
+                color: #fff;
+            }
+
+            .footer-content {
+                display: contents;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        
+
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    
+                    <ul class="nav-list">
+                        
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link active">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="bedroom.php" class="nav-link">Interior design</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+       
+        <body>
+           
+            <section class="contact">
+                
+                <div class="content">
+                    <h2>About Us</h2>
+
+                </div>
+                
+                <div class="container">
+                    <div class="contactInfo">
+                        <div class="box">
+                        
+                            <div class="text">
+                                <h3>SHORT HISTORY</h3>
+                                <p>Home design was established in 2011 beginning<br> 
+                                in the first year of activity as a small company<br> 
+                                in which the only activity was interior design,<br>
+                                following to develope the first furniture execution<br>
+                               branch in a short time.</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            
+                            <div class="text">
+                                <h3>PRESENT</h3>
+                                <p>The main activity of the company is design.<br>
+                                 Starting from these ideas, we have developed our<br>
+                                 competences into the following directions: residential<br>
+                                 and commercial environmental design, product design,<br>
+                                 furniture productionand the marketing of some interior<br> 
+                                 products and other destinations.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </section>
+
+            <footer>
+                <div class="footer-content">
+                    <img src="images/client.png">
+
+                </div>
+            </footer>
+        </body>
+        
+    </body>
+</html>

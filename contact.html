@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home design</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <style>
+            li.dropdown {
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position:absolute;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .contact {
+                position: relative;
+                min-height: 100vh;
+                padding: 50px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: url(images/contact-us-back.jpg);
+                background-size: cover;
+            }       
+            
+            .contact .content {
+                max-width: 800px;
+                text-align: center;
+            }
+
+            .contact .content h2 {
+                font-size: 36px;
+                font-weight: 500;
+                color:black;
+            }
+
+            .contact .content p {
+                font-weight: 500;
+                color: black;
+            }
+
+            .contact .container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+            }
+
+            .contact .container .contactInfo .box {
+                position: relative;
+                padding: 20px 0;
+                display: flex;
+            }
+
+            .contact .container .contactInfo .box .icon {
+                min-width: 60px;
+                height: 60px;
+                background: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: 22px;
+            }
+
+            .contact .container .contactInfo .box .text {
+                display: flex;
+                margin-left: 20px;
+                font-size: 16px;
+                color: black;
+                flex-direction: column;
+                font-weight: 300;
+            }
+
+            .contact .container .contactInfo .box .text h3 {
+                font-weight: 500;
+                font-size: x-large;
+                color: #3f4e50;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    
+                    <ul class="nav-list">
+                        
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link active">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="bedroom.php" class="nav-link">Interior design</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <body>
+           
+            <section class="contact">
+                
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <p><br>We are at your disposal for any information you need.
+                    <br>Please do not hesitate to contact us for any question</p>
+
+                </div>
+                
+                <div class="container">
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>4671 Mihai Eminescu Avenue,<br>Timisoara,Romania,<br>55060</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>507-475-6094</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>interior2020design@gmail.uk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </section>
+        </body>
+        
+                    
+        <!--<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.952312213616!2d21.230030887097485!3d45.75210197089566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d8069aba2f3%3A0x8e108a516b0a86f2!2sBulevardul%20Mihai%20Eminescu%2C%20Timi%C8%99oara!5e0!3m2!1sen!2sro!4v1602086646083!5m2!1sen!2sro" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>-->
+              
+    </body>
+</html>
